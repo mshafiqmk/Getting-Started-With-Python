@@ -1,8 +1,9 @@
-bioData = {
-    "name" : "john smith",
-    "age"  : 30,
-    "is_verified": False
+phone = input("Phone: ")
+digits_mapping = {
+    "1" : "ONE",
+    "2" : "TWO",
+    "3" : "THREE",
+    "4" : "FOUR"
 }
-bioData["is_verified"] = True
-bioData["birthdate"] = "1/1/1990"
-print(f' {bioData["name"]} => {bioData}')
+for ch in phone:
+    print(digits_mapping.get(ch,"!"))
