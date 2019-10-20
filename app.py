@@ -1,9 +1,10 @@
-i = 1
-while i<=10:
-    print(f' {i} ')
-    i = i + 1
-
-j=0
-while j <= 5:
-    print('*' * j)
-    j = j + 1
+secret_number = 9
+i = 0
+while i<=3:
+    number = int(input('Enter Number to guess'))
+    if number == secret_number :
+        print('You Win')
+        break
+    else:
+        print('Give anthor try')
+        i+=1
