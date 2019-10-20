@@ -1,2 +1,7 @@
-for item in 'Python is interesting language'
-    print(index)
+
+prices = [10,20,30]
+total = 0 
+for price in prices:
+    total += price
+
+print(total)
