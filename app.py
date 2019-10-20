@@ -1,6 +1,6 @@
 secret_number = 9
 i = 0
-while i<=3:
+while i < 3:
     number = int(input('Enter Number to guess = '))
     if number == secret_number :
         print('You Win')
@@ -8,3 +8,5 @@ while i<=3:
     else:
         print('Give anthor try')
         i+=1
+else :
+    print('You have lost game 😣')
