@@ -1,7 +1,8 @@
 bioData = {
     "name" : "john smith",
     "age"  : 30,
-    "is_verified": True
+    "is_verified": False
 }
-
-print(bioData)
+bioData["is_verified"] = True
+bioData["birthdate"] = "1/1/1990"
+print(f' {bioData["name"]} => {bioData}')
