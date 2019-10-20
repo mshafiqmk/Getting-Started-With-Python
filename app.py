@@ -1,12 +1,6 @@
-print(4+4)
+is_hot = False
 
-print(10%2)
-
-print(3 ** 2)
-
-print(7//2)
-
-print("*" * 10)
-
-print(type(23))
-print(type(2332.3))
+if is_hot:
+    print('its hot "day" today')
+else 
+    print("Today is normal day")
