@@ -1,12 +1,28 @@
-class Person : 
-    def __init__(self,name):
-        self.name = name
-    def talk(self):
-        print(f'Hi , I am {self.name} ... ')
+# Inheritance is using for reusing code 
+# example where we can use inheritance
+# class Dog : 
+#     def walk(self):
+#         print('walk')
 
+# class Cat :
+#     def walk(slef)
+#         print('walk')
 
-shafiq = Person('Shafiq')
-shafiq.talk()
+# solution
+# base class 
+class Mammal :
+    def walk(self) :
+        print('walk')
 
-adnan = Person('Adnan')
-adnan.talk()
+# inherit Dog from Mamal
+class Dog(Mammal) :
+    pass 
+
+class Cat(Mammal) : 
+    pass
+
+dog1 = Dog()
+dog1.walk()
+
+cat1 = Cat()
+cat1.walk()
