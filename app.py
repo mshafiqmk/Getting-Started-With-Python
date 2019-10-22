@@ -1,30 +1,9 @@
-# Inheritance is using for reusing code 
-# example where we can use inheritance
-# class Dog : 
-#     def walk(self):
-#         print('walk')
+import converters
+from converters import lb_to_kg
 
-# class Cat :
-#     def walk(slef)
-#         print('walk')
 
-# solution
-# base class 
-class Mammal :
-    def walk(self) :
-        print('walk')
+result = converters.kg_to_lb(70)
+print(result)
 
-# inherit Dog from Mamal
-class Dog(Mammal) :
-    def bark(self) : 
-        print('bark')
-
-class Cat(Mammal) : 
-    def be_annoying(self):
-        print('annoying')
-
-dog1 = Dog()
-dog1.bark()
-
-cat1 = Cat()
-cat1.walk()
+result1 = lb_to_kg(result)
+print(result1)
